@@ -1,0 +1,292 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color:hsl(210, 46%, 95%);
+}
+
+.grids1 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grids2 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.daniel {
+    background-color: hsl(263, 55%, 52%);
+    width: 520px;
+    height: 250px;
+    margin-left: 120px;
+    margin-top: 50px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+#img1 {
+    border-radius: 50%;
+    margin: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+    height: 50px;
+}
+
+#img2 {
+    position: absolute;
+    left: 450px;
+    top:50px;
+}
+
+h4 {
+    position: relative;
+    left: 95px;
+    bottom: 100px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500px;
+}
+
+h6 {
+    position: relative;
+    left: 95px;
+    bottom: 120px;
+    font-family: 12.5px;
+    font-family:'Barlow Semi Condensed' ;
+    font-weight: 500px;
+
+}
+
+h3 {
+    position: relative;
+    bottom: 130px;
+    margin: 30px;
+    font-size: 17px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500px;
+
+}
+
+p {
+    position: relative;
+    bottom: 150px;
+    margin: 20px;
+    font-size: 12.49px;
+    line-height: 18px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500px;
+}
+
+.jonathan {
+    background-color: hsl(217, 19%, 35%);
+    width: 250px;
+    height: 250px;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.jonathan img {
+    border-radius: 50%;
+    margin: 30px;
+    height: 50px;
+}
+
+.jonathan p {
+
+    position: relative;
+    /* width: 240px; */
+    bottom: 150px;
+    margin: 20px;
+    font-size: 12.5px;
+    line-height: 18px;
+    font-family: 'Barlow Semi Condensed';
+    font-weight: 500px;
+}
+
+.kira {
+    background-color: hsl(0, 0%, 100%);
+    position: relative;
+    left: 20px;
+    width: 240px;
+    height: 550px;
+    margin-top: 50px;
+    margin-right: 120px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.kira img {
+    border-radius: 50%;
+    margin: 30px;
+    height: 50;
+}
+
+.jeanette {
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    top: 340px;
+    width: 250px;
+    height: 260px;
+    margin-left: 120px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.jeanette img {
+    border-radius: 50%;
+    margin: 30px;
+    height: 50;
+}
+
+.patrick {
+    background-color: hsl(219, 29%, 14%);
+    position: absolute;
+    top: 340px;
+    left: 320px;
+    width: 520px;
+    height: 260px;
+    margin-left: 100px;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.patrick img {
+    border-radius: 50%;
+    margin: 30px;
+    height: 50;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 15px;
+    font-family:'Barlow Semi Condensed';
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+
+
+
+
+@media screen and (max-width:660px){
+    body{
+        margin:0px;
+        padding:0px;
+        display:flex;
+        flex-direction:column;
+        align-items:center;
+    }
+    .grids1{
+        display:flex;
+        flex-direction:column;
+    }
+    .grids2{
+        position:absolute;
+    }
+    .daniel{
+    width: 300px;
+    height: 400px;
+    margin:25px
+    }
+    #img2{
+        position:relative;
+        left: 100px;
+        top:0px;
+    }
+    #img1 {
+        margin-left:5px;
+        padding:10px;
+    }
+    h4 {
+        position: relative;
+        left: 75px;
+        bottom: 110px;
+    }
+    h6 {
+        position: relative;
+        left: 75px;
+        bottom: 130px;
+        font-family: 12.5px;
+    }
+    
+    h3 {
+        position: relative;
+        bottom: 140px;
+        margin: 30px;
+        font-size: 16px;
+    }
+    .jonathan {
+        width: 300px;
+        height: 220px;
+        margin:25px;
+        margin-top:0px;
+    }
+    .jonathan img {
+        margin-left:5px;
+        padding:10px;
+        margin-top:10px;
+    }
+    
+    .jonathan p {
+        position: relative;
+        bottom: 160px;
+        margin: 20px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .jeanette{
+        position:absolute;
+        top:740px;
+        /* left: 0px; */
+        right:28px;
+        width:300px;
+        height: 220px;
+
+    }
+    .jeanette img {
+        margin-left:5px;
+        padding:10px;
+        margin-top:10px;
+    }
+    .patrick{
+        position:absolute;
+        top:985px;
+        /* right:260px; */
+        left:4px;
+        margin-left:0px;
+        margin:25px;
+        width: 300px;
+        height: 370px;
+
+    }
+    .patrick img {
+        margin-left:5px;
+        padding:10px;
+        margin-top:10px;
+    }
+    .kira{
+        position:relative;
+        top:670px;
+        left:0px;
+        margin:25px;
+        width: 300px;
+        height:400px;
+    }
+    .kira img {
+        margin-left:5px;
+        padding:10px;
+        margin-top:10px;
+    }
+    .attribution{
+        margin-top:665px
+    }
+    html{
+        overflow-x:hidden;
+    }
+}
